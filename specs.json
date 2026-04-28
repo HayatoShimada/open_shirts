@@ -1,0 +1,63 @@
+{
+  "project": "Open Source Shirts",
+  "version": "1.0.0-alpha",
+  "base_model": "Brooks_Brothers_Regular_Collar",
+  "last_updated": "2024-05-22",
+  
+  "metadata": {
+    "designer": "Community-Driven",
+    "maintainer": "85-Store",
+    "license": "Open-Garment-1.0"
+  },
+
+  "geometry": {
+    "units": "cm",
+    "body": {
+      "neck_circumference": 40.0,
+      "chest_width": 58.0,
+      "waist_width": 56.0,
+      "shoulder_width": 46.0,
+      "body_length": 81.0,
+      "sleeve_length": 84.0,
+      "armhole_depth": 26.5
+    },
+    "collar": {
+      "type": "regular_collar",
+      "point_length": 7.5,
+      "band_height_front": 3.0,
+      "band_height_back": 4.2,
+      "spread_angle_deg": 85,
+      "interlining": "non_fused_soft" 
+    },
+    "cuffs": {
+      "style": "barrel_2_button",
+      "width": 9.5,
+      "circumference": 24.5
+    },
+    "details": {
+      "placket_width": 3.5,
+      "pocket_style": "left_chest_classic",
+      "back_pleat": "center_box_pleat",
+      "stitch_density_spi": 18
+    }
+  },
+
+  "materials": {
+    "fabric_id": "oxford-01-white",
+    "yarn_count": "40/2 x 40/2",
+    "composition": "100%_cotton_supima",
+    "weight_gsm": 155,
+    "buttons": {
+      "material": "shell_white_mother_of_pearl",
+      "size_ligne": 18
+    }
+  },
+
+  "pricing_logic": {
+    "currency": "JPY",
+    "base_cost_manufacturing": 1800,
+    "base_cost_material": 900,
+    "operating_margin": 300,
+    "min_sale_price": 3000
+  }
+}
